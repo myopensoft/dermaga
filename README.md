@@ -2,7 +2,16 @@
 
 Based on Yii 2 Advanced Template, a CMS for system starter kit. *Dermaga* means wharf in English, and so this CMS aims to become the wharf for data and information. 
 
-DIRECTORY STRUCTURE
+## Installation
+1. Clone this repo
+2. Create a database and import the included sql file
+3. Run the ```init``` script to set up your yii environment
+4. Change ```dbname``` part in ```common/config/main-local.php``` to the database you imported in step 2 above
+5. Run ```composer update``` in your project root directory to get all vendor files
+6. Portal can be access at example: ```http://localhost/dermaga/www```
+7. Admin site can be access at example: ```http://localhost/dermaga/www/admin```
+
+Directory Structure
 -------------------
 
 ```
