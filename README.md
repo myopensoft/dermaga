@@ -11,6 +11,8 @@ Based on Yii 2 Advanced Template, a CMS for system starter kit. *Dermaga* means 
 6. Portal can be access at example: ```http://localhost/dermaga/www```
 7. Admin site can be access at example: ```http://localhost/dermaga/www/admin```
 
+Super User username/password: root/12345
+
 Directory Structure
 -------------------
 
