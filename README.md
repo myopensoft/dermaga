@@ -13,6 +13,15 @@ Based on Yii 2 Advanced Template, a CMS for system starter kit. *Dermaga* means 
 
 Super User username/password: root/12345
 
+## Autobot Code Generator
+Console command for generating all models & CRUDs from connected database tables, minus the CMS default tables.
+
+Usage:
+* Go to command line in project root ex. c:\xampp\htdocs\dermaga
+* For example, to generate all models & CRUDs for backend, run ```yii autobot/rollout common backend```
+* And to generate all models & CRUDs for frontend, run ```yii autobot/rollout common frontend```
+
+
 Directory Structure
 -------------------
 
