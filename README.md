@@ -18,7 +18,7 @@ Console command for generating all models & CRUDs from connected database tables
 
 Usage:
 * Go to command line in project root ex. c:\xampp\htdocs\dermaga
-* For example, to generate all models & CRUDs for backend, run ```yii autobot/rollout common backend```
+* To generate all models & CRUDs for backend, run ```yii autobot/rollout common backend```
 * And to generate all models & CRUDs for frontend, run ```yii autobot/rollout common frontend```
 
 
