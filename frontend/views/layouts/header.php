@@ -32,7 +32,7 @@ use yii\helpers\Html;
 
                             <p>
                                 <?=Yii::$app->user->identity->fullname ?> - Web Developer
-                                <small>Member since Nov. 2012</small>
+                                <small><?= Yii::t('app','Last Login: ') . Yii::$app->user->identity->lastlogin ?></small>
                             </p>
                         </li>
                         <!-- Menu Body -->
