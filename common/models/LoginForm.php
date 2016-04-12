@@ -64,10 +64,12 @@ class LoginForm extends Model
             $user->save();
             return Yii::$app->user->login($user, $this->rememberMe ? 3600 * 24 * 30 : 0);
         } else {
-            // Record login attempts and last login attempts for login throttling
-            $user->last_login_attempts = time();
-            $user->login_attempts = intval($user->login_attempts) + 1;
-            $user->save();
+            if ($user !== null){
+                // Record login attempts and last login attempts for login throttling
+                $user->last_login_attempts = time();
+                $user->login_attempts = intval($user->login_attempts) + 1;
+                $user->save();
+            }
             return false;
         }
     }
