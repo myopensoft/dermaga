@@ -1,6 +1,13 @@
 # Dermaga CMS by Opensoft Technologies
 
-Based on Yii 2 Advanced Template, a CMS for system starter kit. *Dermaga* means wharf in English, and so this CMS aims to become the wharf for data and information. 
+A CMS for system starter kit. **Dermaga** means wharf in English, and so this CMS aims to become the wharf for data and information. 
+
+## Features
+* User management
+* Multi-role user
+* Complete separation frontend / admin - Run frontend / admin simultaneously on separate sessions (does not share sessions)
+* Minimal default tables in database (user, profile, roles, roles_assigned)
+* Automatic Model & CRUD generation - Just create all your tables & relations in database, then run the "autobot" script to automatically generate all related models and CRUD files.
 
 ## Installation
 1. Clone this repo
@@ -20,43 +27,3 @@ Usage:
 * Go to command line in project root ex. c:\xampp\htdocs\dermaga
 * To generate all models & CRUDs for backend, run ```yii autobot/rollout common backend```
 * And to generate all models & CRUDs for frontend, run ```yii autobot/rollout common frontend```
-
-
-Directory Structure
--------------------
-
-```
-www                      contain portal (frontend) entry script and Web resources
-    admin                contain admin (backend) entry script and Web resources
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-tests                    contains various tests for the advanced application
-    codeception/         contains tests developed with Codeception PHP Testing Framework
-```
