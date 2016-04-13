@@ -10,13 +10,13 @@ A CMS for system starter kit. **Dermaga** means wharf in English, and so this CM
 * Automatic Model & CRUD generation - Just create all your tables & relations in database, then run the "autobot" script to automatically generate all related models and CRUD files.
 
 ## Installation
-1. Clone this repo
-2. Create a database and import the included sql file
-3. Run the ```init``` script to set up your yii environment
-4. Change ```dbname``` part in ```common/config/main-local.php``` to the database you imported in step 2 above
+1. Clone this repo into a web accessible folder, example: C:\xampp\htdocs
+2. Run the ```init``` script to set up your yii environment - choose development
+3. Create a database and change ```dbname``` part in ```common/config/main-local.php``` to one you created just now
+4. Run ```yii migrate``` in your project root directory to set up the database
 5. Run ```composer update``` in your project root directory to get all vendor files
-6. Portal can be access at example: ```http://localhost/dermaga/www```
-7. Admin site can be access at example: ```http://localhost/dermaga/www/admin```
+6. Portal can be access at, example: ```http://localhost/dermaga/www```
+7. Admin site can be access at, example: ```http://localhost/dermaga/www/admin```
 
 Super User username/password: root/12345
 
