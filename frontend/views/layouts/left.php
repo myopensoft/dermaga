@@ -5,7 +5,7 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="<?= $directoryAsset ?>/img/user-icon.png" class="img-circle" alt="User Image"/>
+                <?= yii\helpers\Html::img('@web/img/user-icon.png',['class'=>'img-circle']);?>
             </div>
             <div class="pull-left info">
                 <p><?=Yii::$app->user->identity->fullname ?></p>
