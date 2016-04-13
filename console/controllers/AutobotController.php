@@ -71,6 +71,7 @@ class AutobotController extends Controller
             'roles',
             'roles_assigned',
             'user',
+            'migration',
         ];
         // Get all user defined tables
         $db_connection = \Yii::$app->db;
@@ -83,9 +84,9 @@ class AutobotController extends Controller
         }
         
         if (is_array($run_tables) && !empty($run_tables)){
+            $modelNamespace = "$modelNamespace\\models";
             foreach ($run_tables as $rt){
                 // Generate Model
-                $modelNamespace = "$modelNamespace\\models";
                 $modelName = $this->underscoreToCamelCase($rt, 1);
                 Yii::$app->runAction('gii/model',[
                     'enableI18N' => 1,
