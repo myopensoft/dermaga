@@ -1,16 +1,16 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template",
-    "keywords": ["yii2", "framework", "advanced", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "name": "myopensoft/dermaga",
+    "description": "Dermaga CMS",
+    "keywords": ["yii2", "framework", "advanced", "yii2 cms base app"],
+    "homepage": "http://dermaga.github.io",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
+        "issues": "https://github.com/myopensoft/dermaga/issues?state=open",
+        "forum": "",
+        "wiki": "https://github.com/myopensoft/dermaga/wiki",
+        "irc": "",
+        "source": "https://github.com/myopensoft/dermaga"
     },
     "minimum-stability": "stable",
     "require": {
