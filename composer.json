@@ -21,6 +21,8 @@
         "dmstr/yii2-adminlte-asset": "2.*",
         "mihaildev/yii2-ckeditor": "*",
         "mihaildev/yii2-elfinder": "*",
+        "2amigos/yii2-file-upload-widget": "~1.0",
+        "mpdf/mpdf":"*",
         "toriphes/yii2-console-runner": "*"
     },
     "require-dev": {

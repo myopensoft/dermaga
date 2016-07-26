@@ -6,6 +6,7 @@
 
 # komodo edit project files
 *.komodoproject
+.komodotools
 
 # netbeans project files
 nbproject
