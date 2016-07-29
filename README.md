@@ -1,6 +1,6 @@
-# Dermaga CMS by Opensoft Technologies
+# Dermaga CMS
 
-A CMS for system starter kit. **Dermaga** means wharf in English, and so this CMS aims to become the wharf for data and information. 
+A CMS for system starter kit. **Dermaga** means wharf in English, and so this CMS aims to become the wharf for data and information.
 
 ## Features
 * User management
@@ -27,3 +27,5 @@ Usage:
 * Go to command line in project root ex. c:\xampp\htdocs\dermaga
 * To generate all models & CRUDs for backend, run ```yii autobot/rollout common backend```
 * And to generate all models & CRUDs for frontend, run ```yii autobot/rollout common frontend```
+
+*Project sponsored by Opensoft Technologies Sdn Bhd*
