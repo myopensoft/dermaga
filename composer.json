@@ -2,7 +2,7 @@
     "name": "myopensoft/dermaga",
     "description": "Dermaga CMS",
     "keywords": ["yii2", "framework", "advanced", "yii2 cms base app"],
-    "homepage": "http://dermaga.github.io",
+    "homepage": "https://myopensoft.github.io/dermaga.web/",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
