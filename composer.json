@@ -7,9 +7,9 @@
     "license": "BSD-3-Clause",
     "support": {
         "issues": "https://github.com/myopensoft/dermaga/issues?state=open",
-        "forum": "",
+        "forum": "https://github.com/myopensoft/dermaga/wiki",
         "wiki": "https://github.com/myopensoft/dermaga/wiki",
-        "irc": "",
+        "irc": "https://github.com/myopensoft/dermaga/wiki",
         "source": "https://github.com/myopensoft/dermaga"
     },
     "minimum-stability": "stable",
