@@ -24,34 +24,34 @@
                     //['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     [
                         'label' => Yii::t('app', 'Action Menu'),
-                        'icon' => 'fa fa-rocket',
+                        'icon' => 'rocket',
                         'url' => '#',
                         'items' => [
-                            ['label' => Yii::t('app', 'Dashboard'), 'icon' => 'fa fa-dashboard', 'url' => ['/action/index'],],
+                            ['label' => Yii::t('app', 'Dashboard'), 'icon' => 'dashboard', 'url' => ['/action/index'],],
                         ],
                     ],
                     [
                         'label' => Yii::t('app', 'Administration Menu'),
-                        'icon' => 'fa fa-user-secret',
+                        'icon' => 'user-secret',
                         'url' => '#',
                         'items' => [
-                            ['label' => Yii::t('app', 'Dashboard'), 'icon' => 'fa fa-dashboard', 'url' => ['/site/index'],],
+                            ['label' => Yii::t('app', 'Dashboard'), 'icon' => 'dashboard', 'url' => ['/site/index'],],
                             [
                                 'label' => Yii::t('app', 'Manage User'),
-                                'icon' => 'fa fa-users',
+                                'icon' => 'users',
                                 'url' => '#',
                                 'items' => [
-                                    ['label' => Yii::t('app', 'List Users'), 'icon' => 'fa fa-circle-o', 'url' => ['/user/index'],],
-                                    ['label' => Yii::t('app', 'New User'), 'icon' => 'fa fa-user-plus', 'url' => ['/user/create'],],
+                                    ['label' => Yii::t('app', 'List Users'), 'icon' => 'circle-o', 'url' => ['/user/index'],],
+                                    ['label' => Yii::t('app', 'New User'), 'icon' => 'user-plus', 'url' => ['/user/create'],],
                                 ],
                             ],
                             [
                                 'label' => Yii::t('app', 'Manage Role'),
-                                'icon' => 'fa fa-key',
+                                'icon' => 'key',
                                 'url' => '#',
                                 'items' => [
-                                    ['label' => Yii::t('app', 'List Roles'), 'icon' => 'fa fa-circle-o', 'url' => ['/role/index'],],
-                                    ['label' => Yii::t('app', 'New Role'), 'icon' => 'fa fa-plus-square-o', 'url' => ['/role/create'],],
+                                    ['label' => Yii::t('app', 'List Roles'), 'icon' => 'circle-o', 'url' => ['/role/index'],],
+                                    ['label' => Yii::t('app', 'New Role'), 'icon' => 'plus-square-o', 'url' => ['/role/create'],],
                                 ],
                             ],
                         ],
