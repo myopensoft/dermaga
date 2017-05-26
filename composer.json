@@ -23,7 +23,8 @@
         "mihaildev/yii2-elfinder": "*",
         "2amigos/yii2-file-upload-widget": "~1.0",
         "mpdf/mpdf":"*",
-        "toriphes/yii2-console-runner": "*"
+        "toriphes/yii2-console-runner": "*",
+        "codemix/yii2-localeurls": "^1.4"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
