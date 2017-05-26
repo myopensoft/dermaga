@@ -24,7 +24,7 @@ class m130524_201442_init extends Migration
             'last_login_attempts' => $this->integer()->notNull(),
             'login_attempts' => $this->integer()->notNull(),
             'status' => $this->smallInteger()->notNull()->defaultValue(10),
-            'is_admin' => $this->tinyInteger()->notNull()->defaultValue(0),
+            'is_admin' => $this->smallInteger()->notNull()->defaultValue(0),
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
         ], $tableOptions);
@@ -54,7 +54,7 @@ class m130524_201442_init extends Migration
             'id' => 1,
             'username' => 'root',
             'auth_key' => md5(time()),
-            'password_hash' => password_hash('12345'),
+            'password_hash' => password_hash('12345', PASSWORD_DEFAULT),
             'password_reset_token' => null,
             'email' => 'root@myopensoft.net',
             'last_login' => time(),
